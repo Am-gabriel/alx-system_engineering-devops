@@ -1,0 +1,2 @@
+#!/bin/bash
+file=$(find / -name "starwars-iv.mp4") [ -f "$file" ]; "$file"
